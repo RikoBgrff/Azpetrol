@@ -12,7 +12,7 @@ namespace Azpetrol
         public double Price { get; set; }
         public override string ToString()
         {
-            return $"{Price} AZN";
+            return $"{Price}";
         }
     }
 }
